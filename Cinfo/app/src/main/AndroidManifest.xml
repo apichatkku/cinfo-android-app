@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="th.co.cinfo.chumchon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".controllers.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controllers.HomeActivity" />
+        <activity android:name=".controllers.InsertActivity" />
+        <activity android:name=".controllers.ShowDataActivity" />
+        <activity android:name=".controllers.SettingActivity" />
+        <activity android:name=".controllers.Forms44Activity" />
+        <activity android:name=".controllers.HouseholdActivity" />
+        <activity android:name=".controllers.CommucialActivity" />
+        <activity android:name=".controllers.LocalGovernActivity" />
+        <activity android:name=".controllers.CommunityActivity" />
+        <activity android:name=".controllers.F001Activity" />
+        <activity android:name=".controllers.F002Activity" />
+        <activity android:name=".controllers.F003Activity" />
+        <activity android:name=".controllers.F004Activity" />
+        <activity android:name=".controllers.MainActivity" />
+        <activity android:name=".controllers.TaskgroupF0101Activity" />
+        <activity android:name=".controllers.F01_12Activity"></activity>
+    </application>
+
+</manifest>

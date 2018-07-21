@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Chumchon</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="itemSlaughterHouseGenre">
+        <item>โรงพักสัตว์</item>
+        <item>โรงฆ่าสุกร</item>
+        <item>โรงฆ่าโคและกระบือ </item>
+        <item>โรงฆ่าสัตว์ปีก</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="itemStatusHire">
+        <item>ว่าง</item>
+        <item>ไม่ว่าง</item>
+    </string-array>
+
+</resources>
